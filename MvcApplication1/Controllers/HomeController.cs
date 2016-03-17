@@ -10,7 +10,16 @@ namespace MvcApplication1.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View("index");
         }
-    }
+
+        public ActionResult chef()
+        {
+            return View("chef");
+        }
+        public ActionResult waiter()
+        {
+            return View("waiter");
+        }
+        }
 }
