@@ -9,6 +9,7 @@ namespace MvcApplication1.Models
     {
         public string orderId{get;set;}
         public int tableNumber{get;set;}
+
         public OrderItem[] orderItems { get; set; }
 
     }
